@@ -1,0 +1,37 @@
+.hotel {
+  margin: 0 auto 140px;
+  width: 1080px;
+}
+
+.hotel h2 {
+  margin-bottom: 25px;
+}
+
+.showHotel {
+  display: flex;
+  gap: 20px;
+  /* margin-bottom: 60px; */
+}
+
+.hotelName {
+  height: 280px; /* các image có chiều cao khác nhau giờ sẽ bằng nhau do ở dưới ta set height:100% là bằng height cha mà height cha ở đây là 180px */
+  flex: 1; /* cho phép các flew items có thể grow để lấp đầy width của element cha, sao cho phù hợp với width của element cha và gap ở trên,  */
+}
+
+.hotelNameImg {
+  width: 100%; /* Để bề rộng của ảnh luôn tự động lấp đầy vùng chứa (hotelItem) */
+  height: 100%; /* Để chiều cao của ảnh luôn tự động lấp đầy vùng chứa (hotelItem) */
+  object-fit: cover; /* Để tự động lấy phần ảnh phù hợp với khung hình để hình không bị méo do giãn tỉ lệ do lệnh flex:1 ở trên */
+}
+
+.hotelRatePrice {
+  display: flex;
+  margin-top: 10px;
+}
+
+.hotelRate {
+  background-color: var(--color-primary-blue);
+  color: var(--color-text-white);
+  margin-right: 5px;
+  padding: 2px;
+}

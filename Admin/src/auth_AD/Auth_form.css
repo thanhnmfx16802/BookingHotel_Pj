@@ -1,0 +1,31 @@
+.form-control {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form_name input,
+.form_email input,
+.form_password input {
+  width: 400px;
+  height: 40px;
+  margin: 10px 0;
+  outline: none;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.form-control button {
+  background-color: rgb(16, 135, 214);
+  color: var(--color-text-white);
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  padding: 0 15px;
+  border-radius: 4px;
+}
+
+.error_signup {
+  text-align: center;
+  color: red;
+  margin-top: 15px;
+}

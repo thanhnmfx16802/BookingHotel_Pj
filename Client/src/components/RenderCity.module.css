@@ -1,0 +1,39 @@
+.listCity p,
+.listCity h2 {
+  color: var(--color-text-white);
+}
+
+.renderCity {
+  margin: 50px auto 40px;
+  display: flex;
+  gap: 30px;
+  width: 1080px;
+}
+
+.listCity {
+  position: relative;
+  height: 250px; /* các image có chiều cao khác nhau giờ sẽ bằng nhau do ở dưới ta set height:100% là bằng height cha mà height cha ở đây là 250px */
+  flex: 1; /* cho phép các flew items có thể grow để lấp đầy width của element cha, sao cho phù hợp với width của element cha và gap ở trên,  */
+  overflow: hidden; /* De nhung gi tran ra ngoai hotelItem se bi hide, lam nhu vay se thấy phần bo tròn lộ ra vì ko bị image che đi*/
+  border-radius: 20px;
+}
+
+.cityImg {
+  width: 100%; /* Để bề rộng của ảnh luôn tự động lấp đầy vùng chứa (hotelItem) */
+  height: 100%; /* Để chiều cao của ảnh luôn tự động lấp đầy vùng chứa (hotelItem) */
+  object-fit: cover; /* Để tự động lấy phần ảnh phù hợp với khung hình để hình không bị méo do giãn tỉ lệ do lệnh flex:1 ở trên */
+}
+
+.listCity h2 {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  font-size: 30px;
+}
+
+.listCity p {
+  position: absolute;
+  top: 82%;
+  left: 5%;
+  font-size: 20px;
+}

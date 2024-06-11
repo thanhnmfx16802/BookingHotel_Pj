@@ -1,0 +1,49 @@
+.card-row {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+.card_title {
+  width: 25%;
+  height: 100px;
+}
+
+.card_trans {
+  padding: 2.5rem;
+}
+
+.trans-table {
+  font-size: 13px;
+}
+.trans-head {
+  background-color: #62a9c5;
+}
+
+table,
+tr {
+  padding: 10px;
+  border: 1px solid rgb(190, 189, 189);
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.colorOrange,
+.colorGreen,
+.colorPurple {
+  padding: 5px;
+  border-radius: 5px;
+  color: #524949;
+}
+.colorOrange {
+  background-color: #faec6c;
+}
+.colorGreen {
+  background-color: #6cfa8b;
+}
+.colorPurple {
+  background-color: #8de4ff;
+}

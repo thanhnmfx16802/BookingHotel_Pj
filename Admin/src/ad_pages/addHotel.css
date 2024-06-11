@@ -1,0 +1,13 @@
+input,
+#image,
+#featured,
+#roomName {
+  outline: none;
+}
+.form-wrap {
+  display: flex;
+  gap: 8em;
+}
+#featured {
+  width: 150px;
+}

@@ -1,0 +1,148 @@
+.headers {
+  position: relative;
+  background-color: rgb(24, 56, 163);
+}
+
+.header__select {
+  border: none;
+  outline: none;
+}
+
+.header_items {
+  height: 250px;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.headers h1,
+.headers p {
+  color: var(--color-text-white);
+}
+
+.headers h1 {
+  padding: 20px 0 20px;
+}
+
+.headers p {
+  font-size: 13px;
+  padding: 0px 0 15px;
+}
+
+.header_items button {
+  background-color: rgb(16, 135, 214);
+  color: var(--color-text-white);
+
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 10px 0 15px;
+}
+
+.headers input,
+.headers .form-group {
+  border: none;
+  width: 80%;
+  height: 35px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b3abab;
+}
+
+.form-group.headerDateItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group.headerDateItem .headerIcon,
+.form-group.headerDateItem .headerShow {
+  color: #b3abab;
+  padding-left: 5px;
+}
+
+.date {
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+}
+
+.headers input:focus {
+  outline: 1px solid #dac5c5;
+}
+
+.headers .headers__wrap .headerSearchItem {
+  display: flex;
+  text-decoration: none;
+}
+
+.headers .headers__wrap .headerSearchItem button {
+  background-color: rgb(16, 135, 214);
+  color: var(--color-text-white);
+  height: 75%;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 25px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.headers .headers__wrap {
+  display: flex;
+  width: 1080px;
+  height: 50px;
+  border: 3px solid #e6c222;
+  border-radius: 5px;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  z-index: 2;
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  /* -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4); */
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  cursor: pointer;
+  background-color: white;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}

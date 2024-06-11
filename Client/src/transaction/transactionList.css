@@ -1,0 +1,45 @@
+.transaction_list {
+  width: 1080px;
+  margin: 20px auto;
+}
+
+.transaction_list h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.trans-table {
+  display: flex;
+  justify-content: center;
+}
+.trans-head {
+  background-color: #62a9c5;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid rgb(190, 189, 189);
+  border-collapse: collapse;
+}
+
+.rowGrey {
+  background-color: #e4e8ec;
+}
+
+.colorOrange,
+.colorGreen,
+.colorPurple {
+  padding: 5px;
+  border-radius: 5px;
+  color: #524949;
+}
+.colorOrange {
+  background-color: #faec6c;
+}
+.colorGreen {
+  background-color: #6cfa8b;
+}
+.colorPurple {
+  background-color: #8de4ff;
+}

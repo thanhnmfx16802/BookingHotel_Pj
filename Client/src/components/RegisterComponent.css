@@ -1,0 +1,50 @@
+.register-wrapper {
+  background-color: var(--color-main-blue);
+}
+
+.register {
+  height: 250px;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.register h1 {
+  text-align: center;
+  color: var(--color-text-white);
+  padding-top: 40px;
+}
+
+.register p {
+  text-align: center;
+  color: var(--color-text-white);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.register form {
+  display: flex;
+  justify-content: center;
+}
+
+.register input {
+  height: 50px;
+  flex-basis: 350px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 10px;
+  margin-top: 0;
+}
+
+.register input:focus {
+  outline: 2px solid #e6c222;
+}
+
+.register button {
+  border: none;
+  background-color: var(--color-primary-blue);
+  color: var(--color-text-white);
+  padding: 5px;
+  height: 50px;
+  border-radius: 4px;
+  margin-left: 10px;
+}

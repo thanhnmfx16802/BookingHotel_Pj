@@ -1,0 +1,99 @@
+.bookingContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.bookingWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 70%;
+  padding: 10px;
+}
+
+.bookingInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+}
+
+.bookingInputContainer > input {
+  border: 1px solid #dddada;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 5px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.bookingInfoWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.bookingContent {
+  display: flex;
+  width: 45%;
+  gap: 30px;
+}
+
+.bookingCheckBox {
+  display: flex;
+  gap: 10px;
+}
+.checkbox-container {
+  text-align: center;
+  color: #8b8686;
+}
+
+.bookingBillWrap {
+  margin-top: 30px;
+}
+.bookingBillWrap h3 {
+  margin-bottom: 10px;
+}
+.bookingBill {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.bookingBill select {
+  width: 30%;
+  height: 50px;
+  border: 1px solid #dddada;
+  border-radius: 4px;
+  font-size: 15px;
+  outline: none;
+  padding-left: 10px;
+}
+.bill_but {
+  width: 20%;
+  height: 30px;
+  border: none;
+  background-color: var(--color-primary-blue);
+  color: var(--color-text-white);
+  padding: 5px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.bill_but:hover {
+  opacity: 0.8;
+}
+
+/* Style Khi chưa đủ thông tin sẽ vô hiệu nút */
+.bill_but.disabled {
+  /* Apply styles when the button is disabled */
+  background-color: grey;
+  opacity: 0.5;
+  cursor: not-allowed; /* Change cursor to indicate unavailability */
+}
+
+.error_booking {
+  color: red;
+}

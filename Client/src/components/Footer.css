@@ -1,0 +1,14 @@
+.footerList {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.footerList ul li {
+  list-style-type: none;
+  font-size: 13px;
+  color: var(--color-main-blue);
+  margin: 15px;
+}

@@ -1,0 +1,50 @@
+.navBar_wrap {
+  background-color: var(--color-main-blue);
+}
+
+nav {
+  color: var(--color-text-white);
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav h3 {
+  margin: 10px 0 30px;
+  cursor: pointer;
+}
+
+.nav_button {
+  margin: 10px 0 30px;
+}
+
+.navbarButton {
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.navBar ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 5px 0 20px;
+}
+
+.navBar li {
+  list-style-type: none;
+}
+
+.circle_border {
+  border: 1px solid #e7dada;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+li span {
+  padding-right: 10px;
+}

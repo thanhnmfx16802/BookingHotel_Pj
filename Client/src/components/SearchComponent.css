@@ -1,0 +1,194 @@
+.searchItem {
+  display: flex;
+  gap: 25px;
+  border: 1px solid #eee;
+  border-radius: 7px;
+  /* height: 250px; */
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 890px;
+}
+
+.imgItem {
+  width: 310px;
+}
+
+.searchImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 60% 50%;
+}
+
+.searchInfoHotel {
+  width: 100%;
+}
+
+.hotelSearchRate {
+  background-color: var(--color-main-blue);
+  color: var(--color-text-white);
+
+  padding: 2px;
+}
+.searchDistance {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.searchTag {
+  display: inline-block;
+  background-color: #0ec98a;
+  color: var(--color-text-white);
+  font-size: 13px;
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.searchItem h5 {
+  margin-bottom: 10px;
+}
+
+.nameRate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.nameRate h3 {
+  color: var(--color-primary-blue);
+  flex-basis: 50%;
+}
+.searchRateText {
+  flex-basis: 20%;
+  font-weight: bolder;
+}
+
+.roomPrice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.roomDetail p {
+  margin-bottom: 10px;
+}
+.roomDetail h5 {
+  color: #0ec98a;
+}
+
+.roomDetail .free_cancel {
+  color: #0ec98a;
+  font-size: 13px;
+}
+
+.priceDetail_price {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #e4180a;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.priceDetail_note {
+  font-size: 13px;
+  color: #888484;
+  text-align: right; /* Để căn giữa text thì đặt text align vào chính text đó */
+  margin-bottom: 10px;
+}
+
+.priceDetail_but {
+  background-color: var(--color-primary-blue);
+  border: none;
+  color: var(--color-text-white);
+  padding: 10px;
+}
+.priceDetail {
+  text-align: right; /* Để căn giữa cho button thì phải đặt text align vào container chứa (bao ngoài) button đó */
+}
+
+/* CSS for SearchPopup Component */
+.searchPopup {
+  background-color: #f0c433;
+  border-radius: 10px;
+  max-width: 350px;
+  padding: 10px;
+}
+
+.checkin input,
+.destination input {
+  text-align: center;
+}
+
+.searchPopup .destination label,
+.searchPopup .checkin label {
+  font-size: 13px;
+}
+
+#destination,
+#checkin {
+  width: 280px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#destination:focus,
+#checkin:focus {
+  outline: 1px solid red;
+}
+
+.searchPopup .checkin input {
+  padding-left: 15px;
+}
+
+.searchPopup p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.minPrice,
+.maxPrice,
+.Adult,
+.Children,
+.Room {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchPopup .minPrice label,
+.searchPopup .maxPrice label,
+.searchPopup .Adult label,
+.searchPopup .Children label,
+.searchPopup .Room label {
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+.searchPopup .minPrice input,
+.searchPopup .maxPrice input,
+.searchPopup .Adult input,
+.searchPopup .Children input,
+.searchPopup .Room input {
+  width: 70px;
+  height: 25px;
+  border-radius: 2px;
+  border: none;
+  padding-left: 8px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+}
+
+.search__but {
+  background-color: var(--color-primary-blue);
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: var(--color-text-white);
+  margin: auto;
+}
+.date_pop {
+  position: absolute;
+  z-index: 2;
+}
